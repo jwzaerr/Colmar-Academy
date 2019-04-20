@@ -62,8 +62,9 @@ p {
 
 
 
+/* ---------------HEADER and NAV----------------- */
 
-/* HEADER and NAV */
+
 
 
 header {
@@ -90,8 +91,6 @@ header {
 	padding-left: 24px;
 }
 
-
-
 .nav-logo h2 {
 	display:inline-block;
 	font-size: 1.2rem;
@@ -110,7 +109,6 @@ header {
 .nav-menu a {
 	text-decoration: none;
 	color: #303030;
-
 	transition: color 300ms linear;
 }
 
@@ -125,21 +123,21 @@ header {
 
 
 
+/* --------------------BANNER--------------------- */
 
 
-
-
-
-
-/* BANNER */
 
 .banner {
 	background-color: lightgray;
-
 }
 
 .banner-text {
 	display: inline-block;
+}
+
+.banner-text p {
+	font-weight: normal;
+	margin: 24px 0px;
 }
 
 .col-two-banner.flex {
@@ -153,55 +151,36 @@ header {
 	width: 50%;
 	padding: 12px;
 	margin: 0 auto;
-
 }
 
 .banner-link span {
 	display: block;
 	text-align:center;
 	margin: 0 auto;
-
-}
-
-.banner-text p {
-	font-weight: normal;
-	margin: 24px 0px;
 }
 
 
 
+/* -----------------INFORMATION */ /* AND */ /* THESIS  -----------------*/
 
 
-
-
-
-
-/* INFORMATION */  /* THESIS */
 
 .columns.flex {
-
 	flex-direction: row;
-
-
 }
 
 .col-one.flex {
-
 	flex-direction: column;
 	width: 60%;
-	/* border-right: 1px solid gray; */
 }
-
-
 
 .col-one-image {
 	padding: 32px 24px;
-
 }
+
 .col-one-image img{
 	width: 100%;
 	height: auto;
-
 }
 
 .col-one-image video {
@@ -226,17 +205,12 @@ header {
 .col-two.flex {
 	flex-direction: column;
 	width: 39%;
-
 	padding-top: 16px;
 }
 
 .col-two.flex.info {
 	border-left: 1px solid lightgray;
 }
-
-
-
-
 
 .col-two-child {
 	display: flex;
@@ -252,7 +226,6 @@ header {
 
 .col-two-image {
 	width: 35%;
-
 }
 
 .col-two-image img{
@@ -280,16 +253,9 @@ header {
 
 
 
+/* ------------------------PROGRAMS----------------------- */
 
 
-
-
-
-
-
-
-
-/* PROGRAMS */
 
 .learning-heading {
 	margin: 0 auto;
@@ -305,32 +271,22 @@ header {
 	justify-content: center;
 	width: 100%;
 	margin-bottom: 16px;
-	/* margin: 0 auto; */
 }
 
-
-
-
-
 .course-text {
-	/* width: 250px; */
-
 	padding-left: 16px;
 	padding-bottom: 24px;
 	padding-right: 16px;
-
 }
 
 .course-text h3 {
 	display: inline-block;
 	padding-bottom: 16px;
-
 }
 
 .course-text h4 {
 	display:block;
 	padding-bottom: 8px;
-
 }
 
 .course-card.flex {
@@ -348,22 +304,12 @@ header {
 .course-card {
 	display: block;
 	background-color: white;
-
 }
 
 
 
+/* ------------------------FOOTER--------------------- */
 
-
-
-
-
-
-
-
-
-
-/* FOOTER */
 
 
 footer {
@@ -387,10 +333,3 @@ footer {
 .terms li {
 	padding-right: 24px;
 }
-
-
-
-
-
-
-/* NOTE:  */
