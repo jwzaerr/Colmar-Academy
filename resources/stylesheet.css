@@ -31,6 +31,7 @@ h2 {
 	font-weight: bold;
 	font-size: 2rem;
 	width: 100%;
+	line-height: 1.2;
 }
 
 h3 {
@@ -89,8 +90,16 @@ header {
 	padding-left: 24px;
 }
 
-.nav-logo span {
-	/* trying to figure out how to bold COLMAR ACADEMY */
+
+
+.nav-logo h2 {
+	display:inline-block;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.nav-logo b {
+	font-weight: 500;
 }
 
 .nav-menu ul {
@@ -266,7 +275,7 @@ header {
 
 .thesis-heading {
 	margin: 0 auto;
-	padding: 32px 0px;
+	padding-top: 32px;
 }
 
 
@@ -295,6 +304,7 @@ header {
 .courses.flex {
 	justify-content: center;
 	width: 100%;
+	margin-bottom: 16px;
 	/* margin: 0 auto; */
 }
 
