@@ -1,0 +1,386 @@
+/* STYLE SHEET COLMAR ACADEMY */
+
+
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+html {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	color: #303030;
+
+}
+
+.container {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main {
+	position:relative;
+	top: 64px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 2rem;
+	width: 100%;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.1rem;
+	width: 100%;
+}
+
+h4 {
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: #303030;
+	transition: color 300ms linear;
+}
+
+a:hover {
+	color: blue;
+}
+
+p {
+	font-weight: lighter;
+	line-height: 1.2;
+}
+
+
+
+
+
+/* HEADER and NAV */
+
+
+header {
+	display: flex;
+	height: 64px;
+	width: 100%;
+	position:fixed;
+	z-index: 1;
+	background-color: #FFFFFF;
+	opacity: .9;
+}
+
+.nav-bar.flex {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+
+}
+
+.nav-logo {
+	display: flex;
+	align-items: center;
+	padding-left: 24px;
+}
+
+.nav-logo span {
+	/* trying to figure out how to bold COLMAR ACADEMY */
+}
+
+.nav-menu ul {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-menu a {
+	text-decoration: none;
+	color: #303030;
+
+	transition: color 300ms linear;
+}
+
+.nav-menu a:hover {
+	color: blue;
+}
+
+.nav-menu li {
+	padding: 0px 16px;
+
+}
+
+
+
+
+
+
+
+
+
+/* BANNER */
+
+.banner {
+	background-color: lightgray;
+
+}
+
+.banner-text {
+	display: inline-block;
+}
+
+.col-two-banner.flex {
+	flex-direction: column;
+	justify-content: center;
+	width: 40%;
+}
+
+.banner-link {
+	background-color: gray;
+	width: 50%;
+	padding: 12px;
+	margin: 0 auto;
+
+}
+
+.banner-link span {
+	display: block;
+	text-align:center;
+	margin: 0 auto;
+
+}
+
+.banner-text p {
+	font-weight: normal;
+	margin: 24px 0px;
+}
+
+
+
+
+
+
+
+
+
+/* INFORMATION */  /* THESIS */
+
+.columns.flex {
+
+	flex-direction: row;
+
+
+}
+
+.col-one.flex {
+
+	flex-direction: column;
+	width: 60%;
+	/* border-right: 1px solid gray; */
+}
+
+
+
+.col-one-image {
+	padding: 32px 24px;
+
+}
+.col-one-image img{
+	width: 100%;
+	height: auto;
+
+}
+
+.col-one-image video {
+	width: 100%;
+	height: auto;
+}
+
+.col-one-text {
+	width: 60%;
+	padding: 0px 24px;
+	padding-bottom: 32px;
+}
+
+.col-one-text h2 {
+	padding-bottom: 24px;
+}
+
+.col-one-text p {
+	padding-bottom: 32px;
+}
+
+.col-two.flex {
+	flex-direction: column;
+	width: 39%;
+
+	padding-top: 16px;
+}
+
+.col-two.flex.info {
+	border-left: 1px solid lightgray;
+}
+
+
+
+
+
+.col-two-child {
+	display: flex;
+	flex-direction: row;
+	padding: 16px 16px;
+	border-bottom: 1px solid lightgray;
+	align-items: center;
+}
+
+.col-two-child:nth-child(2n+2) {
+	background-color: lightgray;
+}
+
+.col-two-image {
+	width: 35%;
+
+}
+
+.col-two-image img{
+	width: 100%;
+	height: auto;
+}
+
+.col-two-text {
+	width: 65%;
+	padding-left: 16px;
+}
+
+.col-two-text h4 {
+	padding: 8px 0px;
+}
+
+.col-two-child h3 {
+	padding
+}
+
+.thesis-heading {
+	margin: 0 auto;
+	padding: 32px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROGRAMS */
+
+.learning-heading {
+	margin: 0 auto;
+	padding-top: 32px;
+	padding-bottom: 16px;
+}
+
+.programs {
+	background-color: lightgray;
+}
+
+.courses.flex {
+	justify-content: center;
+	width: 100%;
+	/* margin: 0 auto; */
+}
+
+
+
+
+
+.course-text {
+	/* width: 250px; */
+
+	padding-left: 16px;
+	padding-bottom: 24px;
+	padding-right: 16px;
+
+}
+
+.course-text h3 {
+	display: inline-block;
+	padding-bottom: 16px;
+
+}
+
+.course-text h4 {
+	display:block;
+	padding-bottom: 8px;
+
+}
+
+.course-card.flex {
+	width: 250px;
+	flex-direction: column;
+	margin: 16px;
+	padding:0;
+}
+
+.course-image img{
+	width: 100%;
+	padding-bottom: 16px;
+}
+
+.course-card {
+	display: block;
+	background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer {
+	display: block;
+	border-top: 1px solid lightgray;
+	padding-top: 16px;
+	height: 150px;
+}
+
+.footer-wrapper{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-left: 24px;
+}
+
+.terms ul {
+	display: flex;
+}
+
+.terms li {
+	padding-right: 24px;
+}
+
+
+
+
+
+
+/* NOTE:  */
