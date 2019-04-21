@@ -145,7 +145,7 @@ header {
 
 
 .banner {
-	background-color: lightgray;
+	background-color: #DBF3FA;
 }
 
 .banner-text {
@@ -238,7 +238,7 @@ header {
 }
 
 .col-two-child:nth-child(2n+2) {
-	background-color: lightgray;
+	background-color: #DBF3FA;
 }
 
 .col-two-image {
@@ -372,7 +372,7 @@ header {
 }
 
 .programs {
-	background-color: lightgray;
+	background-color: #DBF3FA;
 }
 
 .courses.flex {
