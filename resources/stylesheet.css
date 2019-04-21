@@ -1,7 +1,5 @@
 /* STYLE SHEET COLMAR ACADEMY */
 
-
-
 /* font-family: 'Roboto', sans-serif; */
 
 
@@ -9,7 +7,6 @@ html {
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	color: #303030;
-
 }
 
 .container {
@@ -82,7 +79,6 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-
 }
 
 .nav-logo {
@@ -118,7 +114,28 @@ header {
 
 .nav-menu li {
 	padding: 0px 16px;
+}
 
+.nav-bar-mobile {
+	display: none;
+}
+
+
+/* MOBILE NAV-BAR */
+
+
+@media only screen and (max-width: 599px) {
+	.nav-bar {
+		display: none;
+	}
+
+	.nav-bar-mobile {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+	}
 }
 
 
@@ -242,13 +259,104 @@ header {
 	padding: 8px 0px;
 }
 
-.col-two-child h3 {
-	padding
-}
-
 .thesis-heading {
 	margin: 0 auto;
 	padding-top: 32px;
+}
+
+.col-two-image-mobile {
+	display: none;
+}
+
+
+/* INFORMATION AND THESIS MOBILE */
+
+
+@media only screen and (max-width: 599px) {
+
+	.container.flex {
+		display: flex;
+		width: 100%;
+	}
+
+	.columns.flex {
+		width: 100%;
+	}
+
+	.col-one.flex {
+		width: 100%;
+	}
+
+	.col-one-image {
+		padding: 0px;
+	}
+
+	.col-two-banner.flex {
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		padding: 32px 16px;
+		text-align: center;
+	}
+
+	.col-one.flex.info-main {
+		display: none;
+	}
+
+	.col-two.flex.info {
+		flex-direction: column;
+		width: 100%;
+		padding-top: 16px;
+		height:auto;
+		border: none;
+	}
+
+	.col-two-child {
+		flex-direction: column;
+		padding: 16px 16px;
+		border-bottom: none;
+		align-items: flex-start;
+	}
+
+	.col-two-image {
+		display: none;
+	}
+
+	.col-two-text h3 {
+		padding-top: 16px;
+		padding-bottom: 8px;
+	}
+
+	.col-two-image-mobile {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.col-two-image-mobile img {
+		width: 100%;
+		height: auto;
+	}
+
+	.col-two.flex.thesis {
+		display: none;
+	}
+
+	.col-one-text.mobile-thesis {
+		display: none;
+	}
+
+	.col-two-child:nth-child(2n+2) {
+		background-color: white;
+	}
+
+	.thesis-heading {
+		margin: 0 auto;
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+
 }
 
 
@@ -307,6 +415,38 @@ header {
 }
 
 
+/* PROGRAM MOBILE */
+
+
+@media only screen and (max-width: 599px) {
+
+	.programs {
+		background-color: white;
+	}
+
+	.course-image, .course-text h4,
+	.course-text p {
+		display: none;
+	}
+
+	.course-card.flex {
+		width: 100%;
+	}
+
+	.course-text.mobile {
+		display: flex;
+		flex-direction: column;
+		background-color: lightgray;
+		padding: 24px 0px 24px 16px;
+	}
+
+	.course-text.mobile h3 {
+		padding: 0px;
+	}
+
+}
+
+
 
 /* ------------------------FOOTER--------------------- */
 
@@ -332,4 +472,19 @@ footer {
 
 .terms li {
 	padding-right: 24px;
+}
+
+/* FOOTER MOBILE */
+
+
+@media only screen and (max-width: 599px) {
+
+
+	footer {
+		border-top: none;
+		padding-top: 40px;
+		padding-bottom: 24px;
+		height: auto;
+	}
+
 }
